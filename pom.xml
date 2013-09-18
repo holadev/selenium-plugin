@@ -8,10 +8,11 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <selenium.version>2.35.0</selenium.version>
   </properties>
   
   <artifactId>selenium</artifactId>
-  <version>2.4-SNAPSHOT</version>
+  <version>2.4</version>
   <packaging>hpi</packaging>
   <name>Jenkins Selenium Plugin</name>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Selenium+Plugin</url>
@@ -157,13 +158,13 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-server-standalone</artifactId>
-      <version>2.35.0</version>
+      <version>${selenium.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>2.35.0</version>
+      <version>${selenium.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
