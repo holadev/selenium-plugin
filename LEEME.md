@@ -7,6 +7,8 @@ Los pasos para compilar el plugin son:
 
 * Modificar en caso de que sea necesario las dependencias de pom.xml según http://docs.seleniumhq.org/download/maven.jsp
 
+* Descargar el jar de selenium-server-standalone a $HOME/Downloads
+
 * Especificar la versión de selenium en pom.xml
 
 * Generar el paquete con
