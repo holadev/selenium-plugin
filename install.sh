@@ -1,4 +1,4 @@
-version=2.40.0
+version=2.44.0
 #cmd=install:install-file
 cmd=deploy:deploy-file
 mvn $cmd -Dmaven.test.skip=true -Dfile=$HOME/Downloads/selenium-server-standalone-${version}.jar \
